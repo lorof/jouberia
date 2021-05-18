@@ -1,0 +1,9 @@
+{
+  "esy": {
+    "build": ""
+  },
+  "dependencies": {
+    "ocaml": "4.12.x",
+    "@opam/dune": "*"
+  }
+}
