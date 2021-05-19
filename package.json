@@ -1,9 +1,16 @@
 {
+  "name": "jouberia",
   "esy": {
-    "build": ""
+    "build": "dune build @all"
+  },
+  "scripts": {
+    "start:exe": "dune exec ./bin/bin.exe"
   },
   "dependencies": {
     "ocaml": "4.12.x",
     "@opam/dune": "*"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*"
   }
 }

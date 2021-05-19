@@ -1,0 +1,4 @@
+(library
+ (name jouberia)
+ (public_name jouberia)
+ (libraries ))

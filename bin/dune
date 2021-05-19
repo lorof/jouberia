@@ -1,0 +1,4 @@
+(executable
+ (name bin)
+ (public_name bin)
+ (libraries jouberia))
