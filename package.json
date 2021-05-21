@@ -1,16 +1,15 @@
 {
   "name": "jouberia",
-  "esy": {
-    "build": "dune build @all"
-  },
-  "scripts": {
-    "start:exe": "esy b dune exec ./bin/bin.exe"
-  },
+  "esy": { "build": "dune build @all" },
+  "scripts": { "start:exe": "esy b dune exec ./bin/bin.exe" },
   "dependencies": {
-    "ocaml": "4.12.x",
-    "@opam/dune": "*"
+    "@opam/dune": "*",
+    "@opam/lwt": "*",
+    "@opam/lwt_ppx": "*",
+    "@opam/ocaml-lsp-server": "1.6.1",
+    "@opam/websocket": "2.14",
+    "@opam/websocket-lwt-unix": "2.14",
+    "ocaml": "4.12.x"
   },
-  "devDependencies": {
-    "@opam/ocaml-lsp-server": "*"
-  }
+  "devDependencies": { "@opam/ocaml-lsp-server": "*" }
 }

@@ -1,4 +1,4 @@
 (library
- (name jouberia)
- (public_name jouberia)
- (libraries ))
+  (name jouberia)
+  (public_name jouberia)
+  (libraries lwt websocket websocket-lwt-unix))

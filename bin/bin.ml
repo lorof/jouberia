@@ -1,1 +1,3 @@
-let _ = print_endline Jouberia.message
+open Jouberia
+
+let onReady () = print_endline "Connected"
