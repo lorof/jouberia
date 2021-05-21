@@ -6,10 +6,16 @@
     "@opam/dune": "*",
     "@opam/lwt": "*",
     "@opam/lwt_ppx": "*",
-    "@opam/ocaml-lsp-server": "1.6.1",
-    "@opam/websocket": "2.14",
-    "@opam/websocket-lwt-unix": "2.14",
+    "@opam/ocamlformat": "0.18.0",
+    "@opam/ppx_deriving_yojson": "3.6.1",
+    "@opam/websocket-client":
+      "github:gravicappa/ocaml-websocket-client:websocket-client.opam#54423d3d98c8a1c57bc87bd698114442af36c2e5",
+    "@opam/yojson": "1.7.0",
     "ocaml": "4.12.x"
   },
-  "devDependencies": { "@opam/ocaml-lsp-server": "*" }
+  "devDependencies": { "@opam/ocaml-lsp-server": "*" },
+  "resolutions": {
+    "@opam/websocket-client":
+      "gravicappa/ocaml-websocket-client:websocket-client.opam#54423d3d98c8a1c57bc87bd698114442af36c2e5"
+  }
 }

@@ -1,4 +1,6 @@
 (library
   (name jouberia)
   (public_name jouberia)
-  (libraries lwt websocket websocket-lwt-unix))
+  (libraries lwt websocket-client yojson ppx_deriving_yojson)
+  (preprocess (pps lwt_ppx ppx_deriving_yojson))
+)
